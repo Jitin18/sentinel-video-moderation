@@ -1,0 +1,13 @@
+groq>=0.11
+python-dotenv
+fastapi
+uvicorn
+python-multipart
+pydantic
+langgraph
+chromadb
+sentence-transformers
+opencv-python-headless
+scenedetect
+pillow
+numpy<2.3

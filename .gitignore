@@ -1,0 +1,19 @@
+# secrets
+.env
+.env.*
+!.env.example
+
+# environment / caches
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+# runtime data (audit logs contain local file paths and moderation history)
+logs/*.jsonl
+dataset/
+
+# video clips — keep local, don't publish
+demo_clips/*
+!demo_clips/README.md
